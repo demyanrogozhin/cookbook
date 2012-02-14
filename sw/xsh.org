@@ -1,0 +1,8 @@
+
+* basics
+** set user shell (need password)
+chsh -s /usr/bin/zsh [username]
+** ssh
+*** don't save host's key
+#this is useful to connect only once
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no [user@address]

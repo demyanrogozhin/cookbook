@@ -1,0 +1,45 @@
+Emacs Tips and Tricks
+
+* WEB LINKS
+** Интересные заметки про Gnus 											 :emacs:
+   http://jfm3-repl.blogspot.com/search/label/gnus
+** про ERC
+   http://xtalk.msk.su/%7Eott/ru/emacs/emacs-im/ar01s02.html#id2523028
+** TODO настройка xkb и emacs
+   http://groups.google.com/group/fido7.ru.emacs/browse_thread/thread/eb5cec4424075182/26adfaef5229f1be
+** Хороший пример использования org как PIM 							   :org:
+   http://www.newartisans.com/blog_files/org.mode.day.planner.php
+** emacs google tools													 :emacs:
+   http://emacsgeek.blogspot.com/
+** Gnus: Searching Mail													 :emacs:
+   http://sachachua.com/wp/2008/05/31/emacs-gnus-searching-mail/
+** jfm3>															:emacs:lisp:
+   http://jfm3-repl.blogspot.com/
+** SessionManagement											   :emacs:2read:
+   http://www.emacswiki.org/cgi-bin/wiki/SessionManagement
+** gnus threading opptions												 :emacs:
+   http://groups.google.com/group/gnu.emacs.gnus/browse_thread/thread/8d2372115ca5695b/7adca150e246f1c7
+** Русская планета Emacs												 :emacs:
+   http://emacs.defun.ru/
+** конфиги к куче програм dot-emacs
+   http://cyber.com.au/~twb/Preferences/
+** Ergonomic Emacs Keybinding
+   http://xahlee.org/emacs/ergonomic_emacs_keybinding.html
+** Emacs EasyPG small how-to 									   :emacs:elisp:
+   http://emacs.wordpress.com/2008/07/18/keeping-your-secrets-secret/
+** Emacs Lisp packages											   :emacs:elisp:
+   http://www.splode.com/~friedman/software/emacs-lisp/
+** WL + GPG
+   http://box.matto.nl/wanderlustgpg.html
+** WL + GMAIL
+   http://box.matto.nl/emacsgmail.html
+** Deuce, the emacs sucsessor? 									:emacs:dylan:
+   http://groups.google.com/groups?selm=G6%25r7.26054%24vq.5400932%40typhoon.ne.mediaone.net
+   http://www.gwydiondylan.org/downloads/contributions/fd-2.0-open-source.zip
+** Org-Protocol, neat thing to store links in org-mode way			  :emacs:
+   http://orgmode.org/worg/org-contrib/org-protocol.php
+** [[http://web.archive.org/web/20070702002238/http:/two-wugs.net/emacs/mode-tutorial.html][An Emacs language mode creation tutorial]] 						  :emacs:
+** [[http://www.emacsmirror.org/][Welcome to The Emacsmirror]]									:emacs:elisp:
+** Yet another [[http://wttools.sourceforge.net/emacs-stuff/emacs.html][.emacs]]											 :nice:emacs:
+** [[http://www.emacswiki.org/emacs/rcircDbusNotification][EmacsWiki: rcircDbusNotification]]								 :emacs:dbus:
+** [[http://julien.danjou.info/blog/index.html][Julien Danjou homepage - jd:/dev/blog]] :emacs:

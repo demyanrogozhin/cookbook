@@ -1,0 +1,13 @@
+Collection of how-to guides
+
+* Catalog
+ * [[file:hw/kbd.org][/hw/kbd]] - good to know info about keyboards
+ * [[file:sw/debian.org][/sw/debian]] - some APT hints
+ * [[file:sw/gentoo.org][/sw/gentoo]] - gentoo cheats
+ * [[file:sw/emacs.org][/sw/emacs]] - emacs tips and tricks
+ * [[file:sw/git.org][/sw/git]] - all about git
+ * [[file:sw/kernel.org][/sw/kernel]] - notes about Linux kernel configuration
+ * [[file:sw/xsh.org][/sw/xsh]] - command cheats for various task in various shells
+
+
+

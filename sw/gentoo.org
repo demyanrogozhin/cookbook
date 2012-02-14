@@ -1,0 +1,6 @@
+
+* snippets
+** fix grub from livecd
+rub-install --no-floppy --root-directory=/mnt/gentoo /dev/sda
+** fix links
+revdep-rebuild --library libpng14.so.14 -- --keep-going

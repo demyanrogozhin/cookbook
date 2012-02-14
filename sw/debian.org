@@ -1,0 +1,22 @@
+* APT
+** search pkg by description
+aptitude search '~dguile'
+** list installed packages from testing
+aptitude search '~S ~i ~Atesting'
+** распаковка deb-пакет
+dpkg -x some.deb .
+** VboxDrv [virtualbox-ose] routine
+ sudo apt-get install virtualbox-ose virtualbox-ose-source module-assistant
+ sudo module-assistant prepare virtualbox-ose
+ sudo module-assistant auto-install virtualbox-ose
+ ls /usr/src/virtualbox-ose-modules-*
+ sudo dpkg -i /usr/src/virtualbox-ose-modules-*.deb
+** run 32bit emulator 64
+sudo aptitude install debootstrap
+debootstrap --arch i386 lenny /var/chroot/lenny-ia32 http://ftp.debian.org/debian/
+** debina update default WM										:deb:hint:wm:
+#!/bin/sh
+set -e
+wm=enlightenment_start
+update-alternatives  --install /usr/bin/x-window-manager x-window-manager \
+    /usr/bin/$wm 90

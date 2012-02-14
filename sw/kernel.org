@@ -1,0 +1,6 @@
+
+* general tips
+** don't forget to include driver for...
+ * chipset
+ * sata controller
+ * partition

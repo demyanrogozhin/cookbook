@@ -1,0 +1,26 @@
+* simple
+** create new own repo
+#REMOTE server
+mkdir <PROJECT>.git
+cd <PROJECT>.git
+git --bare init
+#LOCAL client
+mkdir <PROJECT>
+cd <PROJECT>
+git init
+touch README
+git add README
+git commit -m 'initial commit'
+git remote add origin git@<SERVER>:<PROJECT>.git
+git push origin master
+* tricks
+** merge to another branch
+ 1. Add a remote alias for your local repository, ex:
+	% git remote add self file:///path/to/your/repository
+ 2. Push to the self remote, ex:
+	% git push self dev:master
+** dealing with conflicts
+    % git checkout --ours -- path/to/file
+    % git checkout --theirs -- path/to/file
+** stop messages in diff on windows
+    % git config core.autocrlf false
