@@ -13,6 +13,19 @@ git add README
 git commit -m 'initial commit'
 git remote add origin git@<SERVER>:<PROJECT>.git
 git push origin master
+** deleting remote branch
+git push remote_repo :branch_name
+# Is this means push nothing to branch_name?
+** cherry-picking commits
+git log remote_repo/master
+# get commit SHA
+git cherry-pick -n SHA1
+# un-stage changes
+git reset HEAD
+# interactively add chunks to commit
+git add -p
+# commit when you done
+git commit
 * tricks
 ** merge to another branch
  1. Add a remote alias for your local repository, ex:
