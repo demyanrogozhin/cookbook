@@ -6,3 +6,23 @@ chsh -s /usr/bin/zsh [username]
 *** don't save host's key
 #this is useful to connect only once
 ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no [user@address]
+** cat & grep
+$ cat /etc/network/interfaces | grep -v \#
+$ grep -n milky *.edc
+#//The -n option lists the matching lines, together with line numbers
+$ cat -v
+** ps
+ps xf ##tree!
+ps u  ##user
+ps e  ##env
+* commands
+** xargs
+    #command for each line in list (like wget -i <file>)
+    $ xargs -r -n1 -a <file> COMMAND
+    ##Command is youtube-dl :)
+*** find & sed
+  find . -type f -iname \*.\* -print0 | xargs -0 -e sed -i -e 's/man/woman/g'
+*** modify args with sed
+find . -type f -iname "*.asf" |sed "s/\.\/\([0-9]\{3\}\)\.asf/\1/g;"|xargs -I "x" ln -s 'x.asf' 'x.wma'
+*** watch pictures according to their date
+ls -rt --quoting-style=c|xargs qiv -mfeI
